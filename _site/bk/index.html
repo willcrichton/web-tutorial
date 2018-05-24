@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" value="A website!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title!</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+     #container {
+       margin: 20px auto;
+       width: 900px;
+       border: 3px solid black;
+       overflow: auto;
+       padding: 5px;
+     }
+
+     .column {
+       float: left;
+       width: calc(50% - 5px);
+       margin-right: 5px;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div>Content A</div>
+          <div>Content B</div>
+          <hr />
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h1>Header</h1>
+          <span>Span A</span>
+          <span>Span B</span>
+          <img src="http://dummyimage.com/30x30" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
